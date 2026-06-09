@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import { DogForm } from '../componentes/dogForm'; // Tu formulario de crear
+import { DogForm } from '../componentes/DogForm'; // Tu formulario de crear
 import { EditDogForm } from '../componentes/EditDogForm'; // El que acabamos de crear
 import styles from '../css/Cards.module.css';
 
