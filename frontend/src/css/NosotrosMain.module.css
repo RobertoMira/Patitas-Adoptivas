@@ -1,0 +1,80 @@
+
+:root {
+    --color-azul: #2E5077;
+    --color-naranja: #BA4A00;
+}
+
+.contenedorHistoria {
+    padding: 4% 10%;
+
+    height: 100%;
+}
+
+.historia {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+
+    align-items: center;
+    
+    background-color: lightgray;
+    padding: 0 2vw;
+
+    border-radius: 10px;
+}
+
+.contenedorImgHistoria {
+    width: 100%;
+}
+
+.historia img {
+    height: 100%;
+    width: 100%;
+}
+
+.contenedorTextoHistoria {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    margin: 5%;
+
+    gap: 2vh;
+}
+
+.contenedorTextoHistoria h1 {
+    font-size: 2rem;
+    color: var(--color-naranja);
+}
+
+.contenedorTextoHistoria p {
+    font-size: clamp(0.5rem, calc(5vw + 1rem), 1.5rem);
+    text-align: justify;
+}
+
+.contenedorMV {
+    display: flex;
+    gap: 2vw;
+
+    padding: 6vh 0;
+
+    height: 40%;
+}
+
+.mV {
+    background-color: lightgrey;
+    padding: 5vh 2vw;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 2vh;
+}
+
+.mV {
+    text-align: center;
+}

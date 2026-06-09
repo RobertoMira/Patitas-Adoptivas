@@ -1,0 +1,31 @@
+
+:root {
+    --color-azul: #2E5077;
+    --color-naranja: #BA4A00;
+}
+
+.contenedorInicio {
+    padding: 5vh 5vw;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 5vh;
+
+    color: var(--color-azul);
+}
+
+.contenedorInicio a {
+    text-decoration: none;
+    color: white;
+
+    padding: 10px 20px;
+    background-color: #BA4A00;
+
+    border-radius: 20px;
+    border: none;
+}
+

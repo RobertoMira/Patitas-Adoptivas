@@ -1,0 +1,55 @@
+/* DogForm.module.css */
+
+.formContainer {
+  background-color: #f9f9f9;
+  border: 2px solid #2d78a8; /* Azul */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.formTitle {
+  color: #2d78a8; /* Azul */
+  margin: 0 0 15px 0;
+  font-size: 1.2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputField {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.saveButton {
+  background-color: #2d78a8; /* Azul */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cancelButton {
+  background-color: #f58535; /* Naranja */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}

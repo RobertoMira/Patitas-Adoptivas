@@ -1,0 +1,66 @@
+
+:root {
+    --color-azul: #2E5077;
+    --color-naranja: #BA4A00;
+}
+
+.menuSuperior {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+
+    width: 100%;
+
+    padding: 0 2vw;
+}
+
+.menuSuperior li { 
+    list-style: none;
+}
+
+.menuSuperior a {
+    text-decoration: none;
+    color: var(--color-naranja);
+
+    font-weight: 800;
+}
+
+.logo {
+    width: 8vw;
+    min-width: 100px;
+}
+
+.contenedorHeaderIzquierdo {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    gap: 2vw;
+}
+
+.contenedorHeader {
+    display: flex;
+    margin-left: auto;
+}
+
+.textoLogo {
+    color: var(--color-azul);
+
+    white-space: nowrap;
+
+    font-size: clamp(1rem, calc(1vw + 0.5rem), 2rem);
+    font-weight: 700;
+}
+
+.contenedorBarra {
+    width: 100%;
+    height: 4vh;
+
+    min-height: 30px;
+}
+
+.contenedorBarra img { 
+    width: 100%;
+    height: 100%;
+}
